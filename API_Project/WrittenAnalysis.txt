@@ -1,0 +1,7 @@
+This project pulled data from the OpenWeather API.
+It randomly selected 666 coordinates with valid cities located close to them.
+I plotted Lattitude VS several weather variables, including Temperature, Wind Speed, Humidity, and Cloudiness.
+Three trends that showed up follow:
+1. There appears to be a very clear coorelation between Lattitude and Temperature. The further away form the qeuator, the cooler the temperature.
+2. The relationship between humidity and latitude is less clear. It appears that the data clusters around high aread of humidity both close to the qeuator - 0 deg lattitude - and close to the pole - 180 deg lat. The lowest humidity is clearly in the middle lattitudes.
+3. There does not seem to be a discernable trend between lattitude and wind speed, however I suspect that this data would vary form day-to-day based on storm patterns. How example, a hurricant system near the equator may influence this and cause a coorelation with higher verage winds along lower latitudes.
